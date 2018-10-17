@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="micro_processor_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="micro_processor" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1664000001fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="224"></NameColumnWidth>
+      <ValueColumnWidth column_width="102"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="47" />
+   <wave_markers>
+      <marker time="1000000000" label="" />
+      <marker time="1000000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/micro_processor/clk2" type="logic">
+      <obj_property name="ElementShortName">clk2</obj_property>
+      <obj_property name="ObjectShortName">clk2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/PCaddr_in" type="array">
+      <obj_property name="ElementShortName">PCaddr_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">PCaddr_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/instr_addr" type="array">
+      <obj_property name="ElementShortName">instr_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/increment" type="array">
+      <obj_property name="ElementShortName">increment[15:0]</obj_property>
+      <obj_property name="ObjectShortName">increment[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/incremented_addr" type="array">
+      <obj_property name="ElementShortName">incremented_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">incremented_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/c_out" type="logic">
+      <obj_property name="ElementShortName">c_out</obj_property>
+      <obj_property name="ObjectShortName">c_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/lt" type="logic">
+      <obj_property name="ElementShortName">lt</obj_property>
+      <obj_property name="ObjectShortName">lt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/eq" type="logic">
+      <obj_property name="ElementShortName">eq</obj_property>
+      <obj_property name="ObjectShortName">eq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/gt" type="logic">
+      <obj_property name="ElementShortName">gt</obj_property>
+      <obj_property name="ObjectShortName">gt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/overflow" type="logic">
+      <obj_property name="ElementShortName">overflow</obj_property>
+      <obj_property name="ObjectShortName">overflow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/c_in" type="logic">
+      <obj_property name="ElementShortName">c_in</obj_property>
+      <obj_property name="ObjectShortName">c_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[15:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/RegDst" type="logic">
+      <obj_property name="ElementShortName">RegDst</obj_property>
+      <obj_property name="ObjectShortName">RegDst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/Jump" type="logic">
+      <obj_property name="ElementShortName">Jump</obj_property>
+      <obj_property name="ObjectShortName">Jump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/Branch" type="logic">
+      <obj_property name="ElementShortName">Branch</obj_property>
+      <obj_property name="ObjectShortName">Branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/MemRead" type="logic">
+      <obj_property name="ElementShortName">MemRead</obj_property>
+      <obj_property name="ObjectShortName">MemRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/MemtoReg" type="logic">
+      <obj_property name="ElementShortName">MemtoReg</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/ALUSrc" type="logic">
+      <obj_property name="ElementShortName">ALUSrc</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/ALUOp" type="array">
+      <obj_property name="ElementShortName">ALUOp[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/reg_write_data" type="array">
+      <obj_property name="ElementShortName">reg_write_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_write_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/reg1_read_data" type="array">
+      <obj_property name="ElementShortName">reg1_read_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg1_read_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/reg2_read_data" type="array">
+      <obj_property name="ElementShortName">reg2_read_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg2_read_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/write_reg" type="array">
+      <obj_property name="ElementShortName">write_reg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">write_reg[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/extra_out_bits" type="array">
+      <obj_property name="ElementShortName">extra_out_bits[11:0]</obj_property>
+      <obj_property name="ObjectShortName">extra_out_bits[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/clearN" type="logic">
+      <obj_property name="ElementShortName">clearN</obj_property>
+      <obj_property name="ObjectShortName">clearN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/sign_extended" type="array">
+      <obj_property name="ElementShortName">sign_extended[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sign_extended[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/ALUSrc_ctrl_out" type="array">
+      <obj_property name="ElementShortName">ALUSrc_ctrl_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc_ctrl_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/ALU_result" type="array">
+      <obj_property name="ElementShortName">ALU_result[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_result[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/c_out2" type="logic">
+      <obj_property name="ElementShortName">c_out2</obj_property>
+      <obj_property name="ObjectShortName">c_out2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/lt2" type="logic">
+      <obj_property name="ElementShortName">lt2</obj_property>
+      <obj_property name="ObjectShortName">lt2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/ALU_zero_out" type="logic">
+      <obj_property name="ElementShortName">ALU_zero_out</obj_property>
+      <obj_property name="ObjectShortName">ALU_zero_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/gt2" type="logic">
+      <obj_property name="ElementShortName">gt2</obj_property>
+      <obj_property name="ObjectShortName">gt2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/overflow2" type="logic">
+      <obj_property name="ElementShortName">overflow2</obj_property>
+      <obj_property name="ObjectShortName">overflow2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/c_in2" type="logic">
+      <obj_property name="ElementShortName">c_in2</obj_property>
+      <obj_property name="ObjectShortName">c_in2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/read_data" type="array">
+      <obj_property name="ElementShortName">read_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/jump_addr" type="array">
+      <obj_property name="ElementShortName">jump_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">jump_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/branch_addr" type="array">
+      <obj_property name="ElementShortName">branch_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">branch_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/c_out3" type="logic">
+      <obj_property name="ElementShortName">c_out3</obj_property>
+      <obj_property name="ObjectShortName">c_out3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/lt3" type="logic">
+      <obj_property name="ElementShortName">lt3</obj_property>
+      <obj_property name="ObjectShortName">lt3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/eq3" type="logic">
+      <obj_property name="ElementShortName">eq3</obj_property>
+      <obj_property name="ObjectShortName">eq3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/gt3" type="logic">
+      <obj_property name="ElementShortName">gt3</obj_property>
+      <obj_property name="ObjectShortName">gt3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/overflow3" type="logic">
+      <obj_property name="ElementShortName">overflow3</obj_property>
+      <obj_property name="ObjectShortName">overflow3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/c_in3" type="logic">
+      <obj_property name="ElementShortName">c_in3</obj_property>
+      <obj_property name="ObjectShortName">c_in3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/branch_ctrl_out" type="array">
+      <obj_property name="ElementShortName">branch_ctrl_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">branch_ctrl_out[15:0]</obj_property>
+   </wvobject>
+</wave_config>

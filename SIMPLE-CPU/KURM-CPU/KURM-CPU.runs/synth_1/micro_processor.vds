@@ -1,0 +1,478 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Thu Aug 30 11:58:33 2018
+# Process ID: 19308
+# Current directory: D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.runs/synth_1
+# Command line: vivado.exe -log micro_processor.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source micro_processor.tcl
+# Log file: D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.runs/synth_1/micro_processor.vds
+# Journal file: D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source micro_processor.tcl -notrace
+Command: synth_design -top micro_processor -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020-clg484'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020-clg484'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12220 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 349.738 ; gain = 83.016
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'micro_processor' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/final_cpu.v:14]
+WARNING: [Synth 8-85] always block has no event control specified [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/final_cpu.v:21]
+WARNING: [Synth 8-85] always block has no event control specified [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/final_cpu.v:26]
+INFO: [Synth 8-638] synthesizing module 'register16_bit' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/reg.v:1]
+INFO: [Synth 8-256] done synthesizing module 'register16_bit' (1#1) [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/reg.v:1]
+INFO: [Synth 8-638] synthesizing module 'alu' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/alu.v:1]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/alu.v:11]
+INFO: [Synth 8-256] done synthesizing module 'alu' (2#1) [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/alu.v:1]
+INFO: [Synth 8-638] synthesizing module 'instr_memory' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/instr_memory.v:1]
+INFO: [Synth 8-3876] $readmem data file 'instructions.mem' is read successfully [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/instr_memory.v:11]
+INFO: [Synth 8-256] done synthesizing module 'instr_memory' (3#1) [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/instr_memory.v:1]
+INFO: [Synth 8-638] synthesizing module 'controller' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/controller.v:1]
+INFO: [Synth 8-256] done synthesizing module 'controller' (4#1) [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/controller.v:1]
+INFO: [Synth 8-638] synthesizing module 'mux2_to_1' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/mux2x1.v:1]
+INFO: [Synth 8-226] default block is never used [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/mux2x1.v:14]
+INFO: [Synth 8-256] done synthesizing module 'mux2_to_1' (5#1) [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/mux2x1.v:1]
+INFO: [Synth 8-638] synthesizing module 'reg_file' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:1]
+WARNING: [Synth 8-85] always block has no event control specified [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:20]
+INFO: [Synth 8-256] done synthesizing module 'reg_file' (6#1) [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:1]
+INFO: [Synth 8-638] synthesizing module 'sign_extend4_to_16' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/sign_extend.v:1]
+INFO: [Synth 8-256] done synthesizing module 'sign_extend4_to_16' (7#1) [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/sign_extend.v:1]
+INFO: [Synth 8-638] synthesizing module 'data_memory' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/data_memory.v:1]
+INFO: [Synth 8-3876] $readmem data file 'data.mem' is read successfully [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/data_memory.v:12]
+INFO: [Synth 8-256] done synthesizing module 'data_memory' (8#1) [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/data_memory.v:1]
+WARNING: [Synth 8-6014] Unused sequential element OPCODE_reg was removed.  [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/final_cpu.v:49]
+WARNING: [Synth 8-6014] Unused sequential element RS_reg was removed.  [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/final_cpu.v:50]
+WARNING: [Synth 8-6014] Unused sequential element RT_reg was removed.  [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/final_cpu.v:51]
+WARNING: [Synth 8-6014] Unused sequential element RD_OR_SHAMT_reg was removed.  [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/final_cpu.v:52]
+INFO: [Synth 8-256] done synthesizing module 'micro_processor' (9#1) [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/final_cpu.v:14]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[15]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[14]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[13]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[12]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[11]
+WARNING: [Synth 8-3331] design data_memory has unconnected port addr[10]
+WARNING: [Synth 8-3331] design reg_file has unconnected port clear
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 389.066 ; gain = 122.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 389.066 ; gain = 122.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 389.066 ; gain = 122.344
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-5546] ROM "memory" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element instruction_reg was removed.  [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/instr_memory.v:17]
+WARNING: [Synth 8-6014] Unused sequential element MemRead_reg was removed.  [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/controller.v:15]
+INFO: [Synth 8-5544] ROM "regdata_reg[15]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "regdata_reg[14]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "regdata_reg[13]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "regdata_reg[12]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "regdata_reg[11]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "regdata_reg[10]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "regdata_reg[9]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "regdata_reg[8]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "regdata_reg[7]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "regdata_reg[6]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "regdata_reg[5]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "regdata_reg[4]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "regdata_reg[3]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "regdata_reg[2]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "regdata_reg[1]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "regdata_reg[0]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'z_reg' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/alu.v:12]
+WARNING: [Synth 8-327] inferring latch for variable 'c_out_reg' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/alu.v:15]
+WARNING: [Synth 8-327] inferring latch for variable 'overflow_reg' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/alu.v:16]
+WARNING: [Synth 8-327] inferring latch for variable 'RegDst_reg' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/controller.v:15]
+WARNING: [Synth 8-327] inferring latch for variable 'Jump_reg' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/controller.v:15]
+WARNING: [Synth 8-327] inferring latch for variable 'Branch_reg' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/controller.v:15]
+WARNING: [Synth 8-327] inferring latch for variable 'MemtoReg_reg' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/controller.v:15]
+WARNING: [Synth 8-327] inferring latch for variable 'ALUOp_reg' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/controller.v:15]
+WARNING: [Synth 8-327] inferring latch for variable 'MemWrite_reg' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/controller.v:15]
+WARNING: [Synth 8-327] inferring latch for variable 'ALUSrc_reg' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/controller.v:15]
+WARNING: [Synth 8-327] inferring latch for variable 'RegWrite_reg' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/controller.v:15]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 389.066 ; gain = 122.344
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     17 Bit       Adders := 6     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 20    
+	                8 Bit    Registers := 2     
++---RAMs : 
+	              16K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 5     
+	  47 Input      8 Bit        Muxes := 2     
+	  11 Input      3 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 12    
+	  11 Input      1 Bit        Muxes := 8     
+	   2 Input      1 Bit        Muxes := 16    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module register16_bit 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+Module alu 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     17 Bit       Adders := 2     
++---Muxes : 
+	   6 Input      1 Bit        Muxes := 4     
+Module instr_memory 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 2     
++---Muxes : 
+	  47 Input      8 Bit        Muxes := 2     
+Module controller 
+Detailed RTL Component Info : 
++---Muxes : 
+	  11 Input      3 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 8     
+Module mux2_to_1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module reg_file 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 18    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 16    
+Module data_memory 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---RAMs : 
+	              16K Bit         RAMs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4652] Swapped enable and write-enable on 1 RAM instances of RAM data_mem/memory_reg to conserve power
+WARNING: [Synth 8-3332] Sequential element (PC_increment/z_reg[15]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (PC_increment/z_reg[14]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (PC_increment/z_reg[13]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (PC_increment/z_reg[12]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (PC_increment/z_reg[11]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (PC_increment/z_reg[10]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (PC_increment/z_reg[9]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (PC_increment/z_reg[8]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (PC_increment/z_reg[7]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (PC_increment/z_reg[6]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (PC_increment/z_reg[5]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (PC_increment/z_reg[4]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (PC_increment/z_reg[3]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (PC_increment/z_reg[2]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (PC_increment/z_reg[1]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (PC_increment/z_reg[0]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (PC_increment/c_out_reg) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (PC_increment/overflow_reg) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (main_controller/RegDst_reg) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (main_controller/Jump_reg) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (main_controller/Branch_reg) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (main_controller/MemtoReg_reg) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (main_controller/ALUOp_reg[2]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (main_controller/ALUOp_reg[1]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (main_controller/ALUOp_reg[0]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (main_controller/MemWrite_reg) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (main_controller/ALUSrc_reg) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (main_controller/RegWrite_reg) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (registers/regdata_reg[15][15]) is unused and will be removed from module micro_processor.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [15] with 1st driver pin 'registers/regdata_reg[15][15]/Q' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [15] with 2nd driver pin 'GND' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net \regdata_reg[15] [15] is connected to constant driver, other driver is ignored [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+WARNING: [Synth 8-3332] Sequential element (registers/regdata_reg[15][14]) is unused and will be removed from module micro_processor.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [14] with 1st driver pin 'registers/regdata_reg[15][14]/Q' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [14] with 2nd driver pin 'GND' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net \regdata_reg[15] [14] is connected to constant driver, other driver is ignored [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+WARNING: [Synth 8-3332] Sequential element (registers/regdata_reg[15][13]) is unused and will be removed from module micro_processor.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [13] with 1st driver pin 'registers/regdata_reg[15][13]/Q' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [13] with 2nd driver pin 'GND' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net \regdata_reg[15] [13] is connected to constant driver, other driver is ignored [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+WARNING: [Synth 8-3332] Sequential element (registers/regdata_reg[15][12]) is unused and will be removed from module micro_processor.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [12] with 1st driver pin 'registers/regdata_reg[15][12]/Q' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [12] with 2nd driver pin 'GND' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net \regdata_reg[15] [12] is connected to constant driver, other driver is ignored [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+WARNING: [Synth 8-3332] Sequential element (registers/regdata_reg[15][11]) is unused and will be removed from module micro_processor.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [11] with 1st driver pin 'registers/regdata_reg[15][11]/Q' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [11] with 2nd driver pin 'GND' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net \regdata_reg[15] [11] is connected to constant driver, other driver is ignored [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+WARNING: [Synth 8-3332] Sequential element (registers/regdata_reg[15][10]) is unused and will be removed from module micro_processor.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [10] with 1st driver pin 'registers/regdata_reg[15][10]/Q' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [10] with 2nd driver pin 'GND' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net \regdata_reg[15] [10] is connected to constant driver, other driver is ignored [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+WARNING: [Synth 8-3332] Sequential element (registers/regdata_reg[15][9]) is unused and will be removed from module micro_processor.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [9] with 1st driver pin 'registers/regdata_reg[15][9]/Q' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [9] with 2nd driver pin 'GND' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net \regdata_reg[15] [9] is connected to constant driver, other driver is ignored [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+WARNING: [Synth 8-3332] Sequential element (registers/regdata_reg[15][8]) is unused and will be removed from module micro_processor.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [8] with 1st driver pin 'registers/regdata_reg[15][8]/Q' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [8] with 2nd driver pin 'GND' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net \regdata_reg[15] [8] is connected to constant driver, other driver is ignored [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+WARNING: [Synth 8-3332] Sequential element (registers/regdata_reg[15][7]) is unused and will be removed from module micro_processor.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [7] with 1st driver pin 'registers/regdata_reg[15][7]/Q' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [7] with 2nd driver pin 'GND' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net \regdata_reg[15] [7] is connected to constant driver, other driver is ignored [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+WARNING: [Synth 8-3332] Sequential element (registers/regdata_reg[15][6]) is unused and will be removed from module micro_processor.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [6] with 1st driver pin 'registers/regdata_reg[15][6]/Q' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [6] with 2nd driver pin 'GND' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net \regdata_reg[15] [6] is connected to constant driver, other driver is ignored [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+WARNING: [Synth 8-3332] Sequential element (registers/regdata_reg[15][5]) is unused and will be removed from module micro_processor.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [5] with 1st driver pin 'registers/regdata_reg[15][5]/Q' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [5] with 2nd driver pin 'GND' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net \regdata_reg[15] [5] is connected to constant driver, other driver is ignored [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+WARNING: [Synth 8-3332] Sequential element (registers/regdata_reg[15][4]) is unused and will be removed from module micro_processor.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [4] with 1st driver pin 'registers/regdata_reg[15][4]/Q' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [4] with 2nd driver pin 'GND' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net \regdata_reg[15] [4] is connected to constant driver, other driver is ignored [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+WARNING: [Synth 8-3332] Sequential element (registers/regdata_reg[15][3]) is unused and will be removed from module micro_processor.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [3] with 1st driver pin 'registers/regdata_reg[15][3]/Q' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [3] with 2nd driver pin 'GND' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net \regdata_reg[15] [3] is connected to constant driver, other driver is ignored [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+WARNING: [Synth 8-3332] Sequential element (registers/regdata_reg[15][2]) is unused and will be removed from module micro_processor.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [2] with 1st driver pin 'registers/regdata_reg[15][2]/Q' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [2] with 2nd driver pin 'GND' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net \regdata_reg[15] [2] is connected to constant driver, other driver is ignored [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+WARNING: [Synth 8-3332] Sequential element (registers/regdata_reg[15][1]) is unused and will be removed from module micro_processor.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [1] with 1st driver pin 'registers/regdata_reg[15][1]/Q' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [1] with 2nd driver pin 'GND' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net \regdata_reg[15] [1] is connected to constant driver, other driver is ignored [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+WARNING: [Synth 8-3332] Sequential element (registers/regdata_reg[15][0]) is unused and will be removed from module micro_processor.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [0] with 1st driver pin 'registers/regdata_reg[15][0]/Q' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net \regdata_reg[15] [0] with 2nd driver pin 'GND' [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net \regdata_reg[15] [0] is connected to constant driver, other driver is ignored [D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v:25]
+WARNING: [Synth 8-3332] Sequential element (ALU/z_reg[15]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (ALU/z_reg[14]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (ALU/z_reg[13]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (ALU/z_reg[12]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (ALU/z_reg[11]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (ALU/z_reg[10]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (ALU/z_reg[9]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (ALU/z_reg[8]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (ALU/z_reg[7]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (ALU/z_reg[6]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (ALU/z_reg[5]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (ALU/z_reg[4]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (ALU/z_reg[3]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (ALU/z_reg[2]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (ALU/z_reg[1]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (ALU/z_reg[0]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (ALU/c_out_reg) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (ALU/overflow_reg) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (branch_addr_calc/z_reg[15]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (branch_addr_calc/z_reg[14]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (branch_addr_calc/z_reg[13]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (branch_addr_calc/z_reg[12]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (branch_addr_calc/z_reg[11]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (branch_addr_calc/z_reg[10]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (branch_addr_calc/z_reg[9]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (branch_addr_calc/z_reg[8]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (branch_addr_calc/z_reg[7]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (branch_addr_calc/z_reg[6]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (branch_addr_calc/z_reg[5]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (branch_addr_calc/z_reg[4]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (branch_addr_calc/z_reg[3]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (branch_addr_calc/z_reg[2]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (branch_addr_calc/z_reg[1]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (branch_addr_calc/z_reg[0]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (branch_addr_calc/c_out_reg) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (branch_addr_calc/overflow_reg) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (instruction_mem/instruction_reg[7]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (instruction_mem/instruction_reg[6]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (instruction_mem/instruction_reg[5]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (instruction_mem/instruction_reg[4]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (instruction_mem/instruction_reg[3]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (instruction_mem/instruction_reg[2]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (instruction_mem/instruction_reg[1]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (instruction_mem/instruction_reg[0]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (instruction_mem/instruction_reg[15]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (instruction_mem/instruction_reg[14]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (instruction_mem/instruction_reg[13]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (instruction_mem/instruction_reg[12]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (instruction_mem/instruction_reg[11]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (instruction_mem/instruction_reg[10]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (instruction_mem/instruction_reg[9]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (instruction_mem/instruction_reg[8]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (PC/out_reg[15]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (PC/out_reg[14]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (PC/out_reg[13]) is unused and will be removed from module micro_processor.
+WARNING: [Synth 8-3332] Sequential element (PC/out_reg[12]) is unused and will be removed from module micro_processor.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 526.895 ; gain = 260.172
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 526.895 ; gain = 260.172
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 526.895 ; gain = 260.172
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 526.895 ; gain = 260.172
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 526.895 ; gain = 260.172
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 526.895 ; gain = 260.172
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 526.895 ; gain = 260.172
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 526.895 ; gain = 260.172
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 526.895 ; gain = 260.172
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     0|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 526.895 ; gain = 260.172
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 48 critical warnings and 411 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 526.895 ; gain = 260.172
+Synthesis Optimization Complete : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 526.895 ; gain = 260.172
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+48 Infos, 127 Warnings, 48 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 609.355 ; gain = 347.781
+INFO: [Common 17-1381] The checkpoint 'D:/2018-2/SIMPLE-CPU/KURM-CPU/KURM-CPU.runs/synth_1/micro_processor.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 609.355 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Aug 30 11:58:52 2018...

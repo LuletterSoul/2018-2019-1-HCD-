@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="micro_processor_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="micro_processor" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="85700001fs"></ZoomEndTime>
+      <Cursor1Time time="303320000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="368"></NameColumnWidth>
+      <ValueColumnWidth column_width="135"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/micro_processor/CLOCK" type="logic">
+      <obj_property name="ElementShortName">CLOCK</obj_property>
+      <obj_property name="ObjectShortName">CLOCK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/clk2" type="logic">
+      <obj_property name="ElementShortName">clk2</obj_property>
+      <obj_property name="ObjectShortName">clk2</obj_property>
+   </wvobject>
+   <wvobject fp_name="group2328" type="group">
+      <obj_property name="label">instruction_part_memory[63:0]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[63]" type="array">
+         <obj_property name="ElementShortName">[63][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[63][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[62]" type="array">
+         <obj_property name="ElementShortName">[62][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[62][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[61]" type="array">
+         <obj_property name="ElementShortName">[61][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[61][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[60]" type="array">
+         <obj_property name="ElementShortName">[60][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[60][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[59]" type="array">
+         <obj_property name="ElementShortName">[59][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[59][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[58]" type="array">
+         <obj_property name="ElementShortName">[58][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[58][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[57]" type="array">
+         <obj_property name="ElementShortName">[57][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[57][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[56]" type="array">
+         <obj_property name="ElementShortName">[56][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[56][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[55]" type="array">
+         <obj_property name="ElementShortName">[55][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[55][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[54]" type="array">
+         <obj_property name="ElementShortName">[54][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[54][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[53]" type="array">
+         <obj_property name="ElementShortName">[53][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[53][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[52]" type="array">
+         <obj_property name="ElementShortName">[52][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[52][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[51]" type="array">
+         <obj_property name="ElementShortName">[51][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[51][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[50]" type="array">
+         <obj_property name="ElementShortName">[50][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[50][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[49]" type="array">
+         <obj_property name="ElementShortName">[49][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[49][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[48]" type="array">
+         <obj_property name="ElementShortName">[48][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[48][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[47]" type="array">
+         <obj_property name="ElementShortName">[47][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[47][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[46]" type="array">
+         <obj_property name="ElementShortName">[46][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[46][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[45]" type="array">
+         <obj_property name="ElementShortName">[45][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[45][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[44]" type="array">
+         <obj_property name="ElementShortName">[44][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[44][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[43]" type="array">
+         <obj_property name="ElementShortName">[43][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[43][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[42]" type="array">
+         <obj_property name="ElementShortName">[42][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[42][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[41]" type="array">
+         <obj_property name="ElementShortName">[41][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[41][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[40]" type="array">
+         <obj_property name="ElementShortName">[40][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[40][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[39]" type="array">
+         <obj_property name="ElementShortName">[39][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[39][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[38]" type="array">
+         <obj_property name="ElementShortName">[38][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[38][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[37]" type="array">
+         <obj_property name="ElementShortName">[37][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[37][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[36]" type="array">
+         <obj_property name="ElementShortName">[36][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[36][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[35]" type="array">
+         <obj_property name="ElementShortName">[35][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[35][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[34]" type="array">
+         <obj_property name="ElementShortName">[34][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[34][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[33]" type="array">
+         <obj_property name="ElementShortName">[33][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[33][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[32]" type="array">
+         <obj_property name="ElementShortName">[32][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[32][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[31]" type="array">
+         <obj_property name="ElementShortName">[31][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[30]" type="array">
+         <obj_property name="ElementShortName">[30][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[29]" type="array">
+         <obj_property name="ElementShortName">[29][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[28]" type="array">
+         <obj_property name="ElementShortName">[28][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[27]" type="array">
+         <obj_property name="ElementShortName">[27][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[26]" type="array">
+         <obj_property name="ElementShortName">[26][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[25]" type="array">
+         <obj_property name="ElementShortName">[25][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[24]" type="array">
+         <obj_property name="ElementShortName">[24][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[23]" type="array">
+         <obj_property name="ElementShortName">[23][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[22]" type="array">
+         <obj_property name="ElementShortName">[22][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[21]" type="array">
+         <obj_property name="ElementShortName">[21][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[20]" type="array">
+         <obj_property name="ElementShortName">[20][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[19]" type="array">
+         <obj_property name="ElementShortName">[19][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[18]" type="array">
+         <obj_property name="ElementShortName">[18][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[17]" type="array">
+         <obj_property name="ElementShortName">[17][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[16]" type="array">
+         <obj_property name="ElementShortName">[16][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[15]" type="array">
+         <obj_property name="ElementShortName">[15][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[14]" type="array">
+         <obj_property name="ElementShortName">[14][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[13]" type="array">
+         <obj_property name="ElementShortName">[13][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[12]" type="array">
+         <obj_property name="ElementShortName">[12][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[11]" type="array">
+         <obj_property name="ElementShortName">[11][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[10]" type="array">
+         <obj_property name="ElementShortName">[10][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[9]" type="array">
+         <obj_property name="ElementShortName">[9][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[8]" type="array">
+         <obj_property name="ElementShortName">[8][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[7]" type="array">
+         <obj_property name="ElementShortName">[7][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[6]" type="array">
+         <obj_property name="ElementShortName">[6][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[5]" type="array">
+         <obj_property name="ElementShortName">[5][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[4]" type="array">
+         <obj_property name="ElementShortName">[4][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[3]" type="array">
+         <obj_property name="ElementShortName">[3][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[2]" type="array">
+         <obj_property name="ElementShortName">[2][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[1]" type="array">
+         <obj_property name="ElementShortName">[1][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/instruction_mem/memory[0]" type="array">
+         <obj_property name="ElementShortName">[0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/PCaddr_in" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">PCaddr_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">PCaddr_in[15:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">NEXT_PC[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/instr_addr" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">instr_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_addr[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">PC[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[15:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group4982" type="group">
+      <obj_property name="label">controller</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/micro_processor/OPCODE" type="array">
+         <obj_property name="ElementShortName">OPCODE[4:0]</obj_property>
+         <obj_property name="ObjectShortName">OPCODE[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/RegDst" type="logic">
+         <obj_property name="ElementShortName">RegDst</obj_property>
+         <obj_property name="ObjectShortName">RegDst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/Jump" type="logic">
+         <obj_property name="ElementShortName">Jump</obj_property>
+         <obj_property name="ObjectShortName">Jump</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/Branch" type="logic">
+         <obj_property name="ElementShortName">Branch</obj_property>
+         <obj_property name="ObjectShortName">Branch</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/MemRead" type="logic">
+         <obj_property name="ElementShortName">MemRead</obj_property>
+         <obj_property name="ObjectShortName">MemRead</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/MemtoReg" type="logic">
+         <obj_property name="ElementShortName">MemtoReg</obj_property>
+         <obj_property name="ObjectShortName">MemtoReg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/ALUOp" type="array">
+         <obj_property name="ElementShortName">ALUOp[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUOp[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/MemWrite" type="logic">
+         <obj_property name="ElementShortName">MemWrite</obj_property>
+         <obj_property name="ObjectShortName">MemWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/ALUSrc" type="logic">
+         <obj_property name="ElementShortName">ALUSrc</obj_property>
+         <obj_property name="ObjectShortName">ALUSrc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/RegWrite" type="logic">
+         <obj_property name="ElementShortName">RegWrite</obj_property>
+         <obj_property name="ObjectShortName">RegWrite</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group4967" type="group">
+      <obj_property name="label">reg_heap</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/micro_processor/RegWrite" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">RegWrite</obj_property>
+         <obj_property name="ObjectShortName">RegWrite</obj_property>
+         <obj_property name="label">WRITE_ENABLE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/RS" type="array">
+         <obj_property name="ElementShortName">RS[4:0]</obj_property>
+         <obj_property name="ObjectShortName">RS[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/RT" type="array">
+         <obj_property name="ElementShortName">RT[4:0]</obj_property>
+         <obj_property name="ObjectShortName">RT[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/write_reg" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">write_reg[3:0]</obj_property>
+         <obj_property name="ObjectShortName">write_reg[3:0]</obj_property>
+         <obj_property name="label">WRITE_REG[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/reg_write_data" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">reg_write_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">reg_write_data[15:0]</obj_property>
+         <obj_property name="label">REG_WRITE_DATA[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/reg1_read_data" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">reg1_read_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">reg1_read_data[15:0]</obj_property>
+         <obj_property name="label">RS_READ_DATA[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/reg2_read_data" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">reg2_read_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">reg2_read_data[15:0]</obj_property>
+         <obj_property name="label">RT_READ_DATA[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/registers/regdata" type="array">
+         <obj_property name="ElementShortName">regdata[15:0][15:0]</obj_property>
+         <obj_property name="ObjectShortName">regdata[15:0][15:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/micro_processor/registers/regdata[15]" type="array">
+            <obj_property name="ElementShortName">[15][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/registers/regdata[14]" type="array">
+            <obj_property name="ElementShortName">[14][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/registers/regdata[13]" type="array">
+            <obj_property name="ElementShortName">[13][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/registers/regdata[12]" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[12][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][15:0]</obj_property>
+            <obj_property name="label">ar</obj_property>
+            <obj_property name="CustomSignalColor">#FFA500</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/registers/regdata[11]" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[11][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][15:0]</obj_property>
+            <obj_property name="label">ra</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/registers/regdata[10]" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[10][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][15:0]</obj_property>
+            <obj_property name="label">fp</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/registers/regdata[9]" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[9][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][15:0]</obj_property>
+            <obj_property name="label">sp</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/registers/regdata[8]" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[8][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][15:0]</obj_property>
+            <obj_property name="label">gp</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/registers/regdata[7]" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[7][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][15:0]</obj_property>
+            <obj_property name="label">$t3</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/registers/regdata[6]" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[6][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][15:0]</obj_property>
+            <obj_property name="label">$t2</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/registers/regdata[5]" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[5][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][15:0]</obj_property>
+            <obj_property name="label">$t1</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/registers/regdata[4]" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[4][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][15:0]</obj_property>
+            <obj_property name="label">$t0</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/registers/regdata[3]" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[3][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][15:0]</obj_property>
+            <obj_property name="label">$s3</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/registers/regdata[2]" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[2][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][15:0]</obj_property>
+            <obj_property name="label">$s2</obj_property>
+            <obj_property name="CustomSignalColor">#FFD700</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/registers/regdata[1]" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[1][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][15:0]</obj_property>
+            <obj_property name="label">$s1</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/registers/regdata[0]" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[0][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][15:0]</obj_property>
+            <obj_property name="label">$s0</obj_property>
+            <obj_property name="CustomSignalColor">#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group4971" type="group">
+      <obj_property name="label">alu</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/micro_processor/ALUOp" type="array">
+         <obj_property name="ElementShortName">ALUOp[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUOp[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/reg1_read_data" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">reg1_read_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">reg1_read_data[15:0]</obj_property>
+         <obj_property name="label">ALU_INPUI_1[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/ALUSrc_ctrl_out" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">ALUSrc_ctrl_out[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUSrc_ctrl_out[15:0]</obj_property>
+         <obj_property name="label">ALU_INPUI_2[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/ALU_result" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">ALU_result[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_result[15:0]</obj_property>
+         <obj_property name="label">ALU_RESULT[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group4973" type="group">
+      <obj_property name="label">memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/micro_processor/MemWrite" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">MemWrite</obj_property>
+         <obj_property name="ObjectShortName">MemWrite</obj_property>
+         <obj_property name="label">MEM_WRITE_ENABLE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/MemRead" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">MemRead</obj_property>
+         <obj_property name="ObjectShortName">MemRead</obj_property>
+         <obj_property name="label">MEM_READ_ENABLE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/ALU_result" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">ALU_result[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_result[15:0]</obj_property>
+         <obj_property name="label">MEM_ADDR[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/reg2_read_data" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">reg2_read_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">reg2_read_data[15:0]</obj_property>
+         <obj_property name="label">MEM_WRITE_DATA[15:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/data_mem/readData" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">readData[15:0]</obj_property>
+         <obj_property name="ObjectShortName">readData[15:0]</obj_property>
+         <obj_property name="label">MEM_READ_DATA[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="group5014" type="group">
+         <obj_property name="label">memory[0:128]</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/micro_processor/data_mem/memory[128]" type="array">
+            <obj_property name="ElementShortName">[128][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[128][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[127]" type="array">
+            <obj_property name="ElementShortName">[127][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[127][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[126]" type="array">
+            <obj_property name="ElementShortName">[126][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[126][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[125]" type="array">
+            <obj_property name="ElementShortName">[125][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[125][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[124]" type="array">
+            <obj_property name="ElementShortName">[124][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[124][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[123]" type="array">
+            <obj_property name="ElementShortName">[123][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[123][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[122]" type="array">
+            <obj_property name="ElementShortName">[122][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[122][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[121]" type="array">
+            <obj_property name="ElementShortName">[121][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[121][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[120]" type="array">
+            <obj_property name="ElementShortName">[120][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[120][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[119]" type="array">
+            <obj_property name="ElementShortName">[119][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[119][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[118]" type="array">
+            <obj_property name="ElementShortName">[118][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[118][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[117]" type="array">
+            <obj_property name="ElementShortName">[117][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[117][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[116]" type="array">
+            <obj_property name="ElementShortName">[116][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[116][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[115]" type="array">
+            <obj_property name="ElementShortName">[115][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[115][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[114]" type="array">
+            <obj_property name="ElementShortName">[114][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[114][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[113]" type="array">
+            <obj_property name="ElementShortName">[113][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[113][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[112]" type="array">
+            <obj_property name="ElementShortName">[112][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[112][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[111]" type="array">
+            <obj_property name="ElementShortName">[111][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[111][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[110]" type="array">
+            <obj_property name="ElementShortName">[110][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[110][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[109]" type="array">
+            <obj_property name="ElementShortName">[109][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[109][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[108]" type="array">
+            <obj_property name="ElementShortName">[108][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[108][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[107]" type="array">
+            <obj_property name="ElementShortName">[107][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[107][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[106]" type="array">
+            <obj_property name="ElementShortName">[106][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[106][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[105]" type="array">
+            <obj_property name="ElementShortName">[105][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[105][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[104]" type="array">
+            <obj_property name="ElementShortName">[104][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[104][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[103]" type="array">
+            <obj_property name="ElementShortName">[103][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[103][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[102]" type="array">
+            <obj_property name="ElementShortName">[102][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[102][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[101]" type="array">
+            <obj_property name="ElementShortName">[101][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[101][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[100]" type="array">
+            <obj_property name="ElementShortName">[100][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[100][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[99]" type="array">
+            <obj_property name="ElementShortName">[99][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[99][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[98]" type="array">
+            <obj_property name="ElementShortName">[98][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[98][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[97]" type="array">
+            <obj_property name="ElementShortName">[97][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[97][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[96]" type="array">
+            <obj_property name="ElementShortName">[96][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[96][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[95]" type="array">
+            <obj_property name="ElementShortName">[95][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[95][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[94]" type="array">
+            <obj_property name="ElementShortName">[94][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[94][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[93]" type="array">
+            <obj_property name="ElementShortName">[93][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[93][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[92]" type="array">
+            <obj_property name="ElementShortName">[92][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[92][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[91]" type="array">
+            <obj_property name="ElementShortName">[91][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[91][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[90]" type="array">
+            <obj_property name="ElementShortName">[90][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[90][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[89]" type="array">
+            <obj_property name="ElementShortName">[89][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[89][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[88]" type="array">
+            <obj_property name="ElementShortName">[88][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[88][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[87]" type="array">
+            <obj_property name="ElementShortName">[87][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[87][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[86]" type="array">
+            <obj_property name="ElementShortName">[86][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[86][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[85]" type="array">
+            <obj_property name="ElementShortName">[85][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[85][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[84]" type="array">
+            <obj_property name="ElementShortName">[84][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[84][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[83]" type="array">
+            <obj_property name="ElementShortName">[83][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[83][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[82]" type="array">
+            <obj_property name="ElementShortName">[82][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[82][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[81]" type="array">
+            <obj_property name="ElementShortName">[81][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[81][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[80]" type="array">
+            <obj_property name="ElementShortName">[80][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[80][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[79]" type="array">
+            <obj_property name="ElementShortName">[79][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[79][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[78]" type="array">
+            <obj_property name="ElementShortName">[78][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[78][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[77]" type="array">
+            <obj_property name="ElementShortName">[77][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[77][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[76]" type="array">
+            <obj_property name="ElementShortName">[76][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[76][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[75]" type="array">
+            <obj_property name="ElementShortName">[75][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[75][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[74]" type="array">
+            <obj_property name="ElementShortName">[74][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[74][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[73]" type="array">
+            <obj_property name="ElementShortName">[73][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[73][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[72]" type="array">
+            <obj_property name="ElementShortName">[72][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[72][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[71]" type="array">
+            <obj_property name="ElementShortName">[71][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[71][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[70]" type="array">
+            <obj_property name="ElementShortName">[70][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[70][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[69]" type="array">
+            <obj_property name="ElementShortName">[69][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[69][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[68]" type="array">
+            <obj_property name="ElementShortName">[68][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[68][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[67]" type="array">
+            <obj_property name="ElementShortName">[67][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[67][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[66]" type="array">
+            <obj_property name="ElementShortName">[66][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[66][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[65]" type="array">
+            <obj_property name="ElementShortName">[65][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[65][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[64]" type="array">
+            <obj_property name="ElementShortName">[64][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[64][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[63]" type="array">
+            <obj_property name="ElementShortName">[63][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[63][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[62]" type="array">
+            <obj_property name="ElementShortName">[62][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[62][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[61]" type="array">
+            <obj_property name="ElementShortName">[61][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[61][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[60]" type="array">
+            <obj_property name="ElementShortName">[60][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[60][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[59]" type="array">
+            <obj_property name="ElementShortName">[59][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[59][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[58]" type="array">
+            <obj_property name="ElementShortName">[58][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[58][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[57]" type="array">
+            <obj_property name="ElementShortName">[57][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[57][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[56]" type="array">
+            <obj_property name="ElementShortName">[56][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[56][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[55]" type="array">
+            <obj_property name="ElementShortName">[55][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[55][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[54]" type="array">
+            <obj_property name="ElementShortName">[54][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[54][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[53]" type="array">
+            <obj_property name="ElementShortName">[53][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[53][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[52]" type="array">
+            <obj_property name="ElementShortName">[52][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[52][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[51]" type="array">
+            <obj_property name="ElementShortName">[51][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[51][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[50]" type="array">
+            <obj_property name="ElementShortName">[50][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[50][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[49]" type="array">
+            <obj_property name="ElementShortName">[49][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[49][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[48]" type="array">
+            <obj_property name="ElementShortName">[48][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[48][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[47]" type="array">
+            <obj_property name="ElementShortName">[47][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[47][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[46]" type="array">
+            <obj_property name="ElementShortName">[46][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[46][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[45]" type="array">
+            <obj_property name="ElementShortName">[45][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[45][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[44]" type="array">
+            <obj_property name="ElementShortName">[44][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[44][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[43]" type="array">
+            <obj_property name="ElementShortName">[43][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[43][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[42]" type="array">
+            <obj_property name="ElementShortName">[42][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[42][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[41]" type="array">
+            <obj_property name="ElementShortName">[41][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[41][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[40]" type="array">
+            <obj_property name="ElementShortName">[40][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[40][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[39]" type="array">
+            <obj_property name="ElementShortName">[39][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[39][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[38]" type="array">
+            <obj_property name="ElementShortName">[38][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[38][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[37]" type="array">
+            <obj_property name="ElementShortName">[37][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[37][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[36]" type="array">
+            <obj_property name="ElementShortName">[36][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[36][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[35]" type="array">
+            <obj_property name="ElementShortName">[35][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[35][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[34]" type="array">
+            <obj_property name="ElementShortName">[34][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[34][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[33]" type="array">
+            <obj_property name="ElementShortName">[33][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[33][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[32]" type="array">
+            <obj_property name="ElementShortName">[32][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[32][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[31]" type="array">
+            <obj_property name="ElementShortName">[31][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[31][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[30]" type="array">
+            <obj_property name="ElementShortName">[30][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[30][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[29]" type="array">
+            <obj_property name="ElementShortName">[29][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[29][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[28]" type="array">
+            <obj_property name="ElementShortName">[28][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[28][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[27]" type="array">
+            <obj_property name="ElementShortName">[27][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[27][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[26]" type="array">
+            <obj_property name="ElementShortName">[26][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[26][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[25]" type="array">
+            <obj_property name="ElementShortName">[25][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[25][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[24]" type="array">
+            <obj_property name="ElementShortName">[24][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[24][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[23]" type="array">
+            <obj_property name="ElementShortName">[23][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[23][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[22]" type="array">
+            <obj_property name="ElementShortName">[22][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[22][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[21]" type="array">
+            <obj_property name="ElementShortName">[21][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[21][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[20]" type="array">
+            <obj_property name="ElementShortName">[20][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[20][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[19]" type="array">
+            <obj_property name="ElementShortName">[19][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[19][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[18]" type="array">
+            <obj_property name="ElementShortName">[18][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[18][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[17]" type="array">
+            <obj_property name="ElementShortName">[17][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[17][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[16]" type="array">
+            <obj_property name="ElementShortName">[16][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[16][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[15]" type="array">
+            <obj_property name="ElementShortName">[15][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[14]" type="array">
+            <obj_property name="ElementShortName">[14][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[13]" type="array">
+            <obj_property name="ElementShortName">[13][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[12]" type="array">
+            <obj_property name="ElementShortName">[12][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[11]" type="array">
+            <obj_property name="ElementShortName">[11][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[10]" type="array">
+            <obj_property name="ElementShortName">[10][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[9]" type="array">
+            <obj_property name="ElementShortName">[9][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[8]" type="array">
+            <obj_property name="ElementShortName">[8][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[7]" type="array">
+            <obj_property name="ElementShortName">[7][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[6]" type="array">
+            <obj_property name="ElementShortName">[6][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[5]" type="array">
+            <obj_property name="ElementShortName">[5][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[4]" type="array">
+            <obj_property name="ElementShortName">[4][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[3]" type="array">
+            <obj_property name="ElementShortName">[3][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[2]" type="array">
+            <obj_property name="ElementShortName">[2][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[1]" type="array">
+            <obj_property name="ElementShortName">[1][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/micro_processor/data_mem/memory[0]" type="array">
+            <obj_property name="ElementShortName">[0][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][15:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/micro_processor/data_mem/memory" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">memory[1023:0][15:0]</obj_property>
+         <obj_property name="ObjectShortName">memory[1023:0][15:0]</obj_property>
+         <obj_property name="label">memory_data[1023:0][15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/RD_OR_SHAMT" type="array">
+      <obj_property name="ElementShortName">RD_OR_SHAMT[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RD_OR_SHAMT[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/sign_extended" type="array">
+      <obj_property name="ElementShortName">sign_extended[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sign_extended[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/read_data" type="array">
+      <obj_property name="ElementShortName">read_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/jump_addr" type="array">
+      <obj_property name="ElementShortName">jump_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">jump_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/branch_addr" type="array">
+      <obj_property name="ElementShortName">branch_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">branch_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/branch_ctrl_out" type="array">
+      <obj_property name="ElementShortName">branch_ctrl_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">branch_ctrl_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/data_mem/addr" type="array">
+      <obj_property name="ElementShortName">addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/data_mem/writeData" type="array">
+      <obj_property name="ElementShortName">writeData[15:0]</obj_property>
+      <obj_property name="ObjectShortName">writeData[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/instruction_mem/addr" type="array">
+      <obj_property name="ElementShortName">addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/micro_processor/instruction_mem/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+</wave_config>

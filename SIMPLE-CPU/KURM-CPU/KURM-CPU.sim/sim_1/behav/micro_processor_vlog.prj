@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/alu.v"
+verilog xil_defaultlib  "../../../KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/controller.v"
+verilog xil_defaultlib  "../../../KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/data_memory.v"
+verilog xil_defaultlib  "../../../KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/instr_memory.v"
+verilog xil_defaultlib  "../../../KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/mux2x1.v"
+verilog xil_defaultlib  "../../../KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/reg.v"
+verilog xil_defaultlib  "../../../KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/regfile.v"
+verilog xil_defaultlib  "../../../KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/modules/sign_extend.v"
+verilog xil_defaultlib  "../../../KURM-CPU.srcs/sources_1/imports/KURM-CPU-master/final_cpu.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
